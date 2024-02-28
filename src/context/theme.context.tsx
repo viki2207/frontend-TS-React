@@ -11,6 +11,6 @@ export const ThemeContext = createContext<IThemeContextInterface>({
 //     const[darkMode,setDarkMode] = useState<boolean>(false);
 //     const toggleDarkMode:()=>void = ()=>{
 //         setDarkMode((prevState)=> !prevState)
-//     }
+//  }
 
-}
+//}
