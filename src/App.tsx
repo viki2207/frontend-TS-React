@@ -1,8 +1,16 @@
-import React from 'react'
+import { useContext } from "react";
+import { ThemeContext } from "./context/theme.context";
+import Navbar from "./components/navbar/Navbar.components";
 
 const App = () => {
+  const {darkMode} = useContext(ThemeContext);
+  const appStyles = darkMode ? "app dark" :"app"
   return (
-    <div className='app'>App</div>
+    <div className={appStyles}>
+      <Navbar/>   <div className="wrapper">
+        Routes
+      </div>
+    </div>
   )
 }
 
