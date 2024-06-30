@@ -1,8 +1,8 @@
 export interface ICompany {
-  id: String;
+  id: string;
   name: string;
   size: string;
-  createfAt: string;
+  createdAt: string;
 } //create this interface means  we are enforcing we need this structureof company object
 
 export interface ICreateCompanyDto {
