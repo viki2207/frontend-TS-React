@@ -52,12 +52,12 @@ const AddJob = () => {
       return;
     }
     httpModule
-      .post("/Company/Create", job)
+      .post("/Job/Create", job)
       .then((response) => redirect("/jobs"))
       .catch((error) => console.log(error));
   };
   const handleClickBackBtn = () => {
-    redirect("/jobs"); 
+    redirect("/jobs");
   };
   return (
     <div className="content">
