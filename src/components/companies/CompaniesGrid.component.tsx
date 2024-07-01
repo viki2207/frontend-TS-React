@@ -1,3 +1,4 @@
+import "./companies-grid.scss";
 import { Box } from "@mui/material";
 import { DataGrid } from "@mui/x-data-grid";
 import { GridColDef } from "@mui/x-data-grid/models";
@@ -28,6 +29,7 @@ const CompaniesGrid = ({ data }: IcompaniesGridProps) => {
         columns={column}
         getRowId={(row) => row.id}
         rowHeight={50}
+        
       />
     </Box>
   );
