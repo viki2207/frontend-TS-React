@@ -29,7 +29,6 @@ const CompaniesGrid = ({ data }: IcompaniesGridProps) => {
         columns={column}
         getRowId={(row) => row.id}
         rowHeight={50}
-        
       />
     </Box>
   );
