@@ -40,13 +40,13 @@ const Navbar = () => {
         <Menu onClick={ToggleOpenMenu} />
       </div>
       <div className="toggle">
-        <ToggleButton
+        {/* <ToggleButton
           value={"check"}
           selected={darkMode}
           onChange={toggleDarkMode}
         >
           {darkMode ? <LightMode /> : <DarkMode />}
-        </ToggleButton>
+        </ToggleButton> */}
       </div>
     </div>
   );
